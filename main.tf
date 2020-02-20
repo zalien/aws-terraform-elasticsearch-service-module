@@ -38,7 +38,5 @@ CONFIG
 
   tags = {
     Domain        = var.domain_name
-    business-unit = "JMDS"
-    application   = "kibana"
   }
 }
