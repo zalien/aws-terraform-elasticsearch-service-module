@@ -36,7 +36,5 @@ resource "aws_elasticsearch_domain" "es" {
 }
 CONFIG
 
-  tags = {
-    Domain        = var.domain_name
-  }
+  tags = merge(var.tags)
 }
